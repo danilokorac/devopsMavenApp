@@ -3,7 +3,7 @@ import models.Employee;
 public class MavenApp {
     public static void main(String[] args) {
 
-        Employee emp = new Employee("MavenGuy", 167, 1200);
+        Employee emp = new Employee("MavenGuy", 168, 1200);
 
         double workerSalaryCount = emp.salaryCount();
 
