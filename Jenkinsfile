@@ -23,7 +23,7 @@ pipeline {
         stage('Publish') {
             steps {
                 echo 'Publishing...'
-                echo 'Running docker push..'
+                echo 'Running docker push...'
             }
         }
         stage('Cleanup') {
